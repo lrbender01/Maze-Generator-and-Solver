@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from PIL import Image
-import random, sys, time, os
+import random, time, os
 
 DEBUG_FLAG = False
 
