@@ -140,7 +140,7 @@ def generate_image(width, height, edges, scale, file):
         for y in range(big_image.height):
             for x in range(big_image.width):
                 big_pixels[x, y] = pixels[int(x / scale), int(y / scale)]
-        big_image.save(f'larger_{file}')
+        big_image.save(f'{scale}x_{file}')
         
 def main():
     width = int(input('Width: '))
