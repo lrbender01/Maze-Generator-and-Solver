@@ -2,6 +2,6 @@
 
 for i in *.png; do
     echo $i
-    python3 ./mazesolve.py $i
+    time python3 ./mazesolve.py $i
     echo
 done
