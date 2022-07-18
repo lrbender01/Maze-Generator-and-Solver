@@ -85,7 +85,7 @@ def generate_maze(width, height, cycles):
         if DEBUG_FLAG:
             print(f'Sub Graphs: {sub_graphs}, Edge Removed: {e}, Graphs Left: {len(sub_graphs)}')
 
-        draw_progress(1 - (len(sub_graphs) / (width * height)))        
+        # draw_progress(1 - (len(sub_graphs) / (width * height)))        
 
         # Break when all nodes are accessible
         if len(sub_graphs) == 1:
